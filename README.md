@@ -1,34 +1,42 @@
-🌐 Minha Jornada com HTML e CSS
+# Minha Jornada com HTML e CSS
 
-Um projeto criado com dedicação, prática e muita gratidão pelo aprendizado adquirido ao longo do curso.
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="Desenvolvimento Web" />
+</p>
 
-✨ Sobre o Projeto
+<p align="center">
+  Um projeto criado com dedicação, prática e gratidão pelo aprendizado adquirido ao longo do curso.
+</p>
 
-Este projeto é uma landing page completa em HTML e CSS, desenvolvida como parte da minha jornada de aprendizado em desenvolvimento web.
-Ele representa não apenas código, mas evolução, persistência e o início de uma nova etapa na minha carreira na tecnologia.
+---
 
-Cada seção foi pensada para demonstrar conceitos importantes, organização de conteúdo, estrutura semântica e cuidado com a experiência do usuário.
+## Sobre o Projeto
 
-🧠 O que aprendi com este projeto
+Este projeto consiste em uma **landing page desenvolvida exclusivamente com HTML e CSS**, criada como parte da minha jornada de aprendizado em desenvolvimento web.
 
-Durante o desenvolvimento desta página, consolidei conhecimentos essenciais, como:
+Mais do que um exercício técnico, ele representa **evolução**, **persistência** e o início de uma nova etapa no meu caminho dentro da tecnologia.  
+Cada detalhe foi pensado para reforçar boas práticas, organização de código e cuidado com a experiência do usuário.
 
-📌 Estruturação correta de páginas com HTML semântico
+---
 
-🎨 Estilização avançada usando CSS
+## O que aprendi com este projeto
 
-📱 Responsividade e adaptação para diferentes telas
+Durante o desenvolvimento desta página, consolidei conhecimentos fundamentais para a base do desenvolvimento web, incluindo:
 
-🧭 Navegação por âncoras com menu interativo
+- Estruturação correta de páginas utilizando HTML semântico  
+- Estilização avançada e organização visual com CSS  
+- Responsividade e adaptação para diferentes tamanhos de tela  
+- Navegação por âncoras com menu interativo  
+- Organização de imagens em galeria com alinhamento consistente  
+- Aplicação de boas práticas de acessibilidade  
+- Separação de responsabilidades com múltiplos arquivos CSS  
 
-🖼️ Organização de imagens em galeria com alinhamento correto
+---
 
-♿ Boas práticas de acessibilidade
+## Estrutura do Projeto
 
-🧩 Separação de responsabilidades com múltiplos arquivos CSS
-
-🏗️ Estrutura do Projeto
-📁 projeto
+```text
+projeto
 │
 ├── index.html
 ├── assets
@@ -41,43 +49,3 @@ Durante o desenvolvimento desta página, consolidei conhecimentos essenciais, co
 │   │
 │   └── img
 │       └── javascript.svg
-
-Essa organização facilita a manutenção, leitura do código e futuras evoluções do projeto.
-
-🎯 Seções da Página
-
-🏠 Início – Uma mensagem de gratidão e conclusão do curso
-
-📘 Aprendizado – Reflexão sobre o que foi aprendido
-
-🧱 HTML – A importância da estrutura na web
-
-🌿 Galeria Natureza – Calma, foco e equilíbrio no aprendizado
-
-🎨 CSS – Estilo, identidade e experiência do usuário
-
-🚀 Final – O começo de uma nova jornada profissional
-
-💡 Tecnologias Utilizadas
-
-HTML5
-
-CSS3
-
-Google Fonts (Montserrat & Open Sans)
-
-Imagens da galeria via Unsplash
-
-💙 Mensagem Final
-
-Concluir este projeto foi mais do que finalizar um código.
-Foi entender que errar faz parte, que aprender leva tempo
-e que cada linha escrita é um passo a mais rumo ao futuro.
-
-Este é apenas o começo. 🚀
-Seguirei estudando, praticando e evoluindo todos os dias.
-
-📌 Status do Projeto
-
-✅ Concluído
-🔜 Futuras melhorias e novos projetos a caminho
