@@ -49,3 +49,47 @@ projeto
 │   │
 │   └── img
 │       └── javascript.svg
+Seções da Página
+<p align="center"> <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" alt="Código e design" /> </p>
+
+Início
+Mensagem de gratidão e conclusão do curso
+
+Aprendizado
+Reflexão sobre o processo de estudo e evolução
+
+HTML
+A importância da estrutura na construção da web
+
+Galeria Natureza
+Representação de calma, foco e equilíbrio durante o aprendizado
+
+CSS
+Estilo, identidade visual e experiência do usuário
+
+Final
+O começo de uma nova jornada profissional
+
+Tecnologias Utilizadas
+
+HTML5
+
+CSS3
+
+Google Fonts (Montserrat e Open Sans)
+
+Imagens da galeria obtidas via Unsplash
+
+Mensagem Final
+
+Concluir este projeto foi mais do que finalizar um código.
+Foi compreender que errar faz parte do processo, que aprender exige tempo e que cada linha escrita representa um passo a mais em direção ao futuro.
+
+Este projeto marca apenas o começo.
+Continuarei estudando, praticando e evoluindo todos os dias.
+
+Status do Projeto
+
+Concluído
+
+Futuras melhorias e novos projetos serão adicionados conforme a evolução dos estudos.
