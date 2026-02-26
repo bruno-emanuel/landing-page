@@ -1,11 +1,224 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Jornada com HTML e CSS</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- AJUSTE DE ALINHAMENTO DA GALERIA -->
+  <style>
+    .gallery-img {
+      width: 100%;
+      height: 360px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .gallery-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
 </head>
+
 <body>
-    
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">MEU CURSO</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#home">início</a></li>
+          <li><a href="#intro">aprendizado</a></li>
+          <li><a href="#grid-one">html</a></li>
+          <li><a href="#gallery">natureza</a></li>
+          <li><a href="#grid-two">css</a></li>
+          <li><a href="#contact">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <!-- HOME -->
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Gratidão por concluir meu curso de HTML e CSS</h2>
+        <p>
+          Concluir este curso foi um desafio cheio de aprendizado. Entre erros,
+          dúvidas e muita prática, percebi o quanto evoluí. Hoje me sinto grato
+          por todo o conhecimento adquirido e motivado para continuar estudando
+          e crescendo na área de desenvolvimento web.
+        </p>
+      </div>
+
+      <!-- PRIMEIRA IMAGEM (MANTIDA) -->
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>O que aprendi durante o curso</h2>
+
+      <p>
+        Este curso me ensinou os fundamentos da criação de sites e como a web
+        funciona por trás das telas. Aprendi a pensar de forma lógica e a
+        resolver problemas.
+      </p>
+
+      <p>
+        O HTML organiza o conteúdo e o CSS transforma tudo em algo visualmente
+        agradável. Juntos, eles formam a base do desenvolvimento web.
+      </p>
+
+      <p>
+        Esse conhecimento é essencial para quem deseja iniciar uma carreira
+        na área de tecnologia.
+      </p>
+    </div>
+  </section>
+
+  <!-- HTML -->
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">A importância do HTML</h2>
+      <p class="grid-description">A estrutura de toda a web.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Estrutura</h3>
+          <p>Define títulos, textos, imagens e organização do site.</p>
+        </article>
+
+        <article>
+          <h3>Acessibilidade</h3>
+          <p>Ajuda leitores de tela e melhora o SEO.</p>
+        </article>
+
+        <article>
+          <h3>Base da carreira</h3>
+          <p>É o primeiro passo para qualquer desenvolvedor.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA ALINHADA -->
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Natureza, calma e foco</h2>
+      <p class="grid-description">Aprender com tranquilidade traz evolução.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+            alt="Rio tranquilo">
+        </div>
+
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80"
+            alt="Floresta com rio">
+        </div>
+
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80"
+            alt="Natureza calma">
+        </div>
+
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80"
+            alt="Água e árvores">
+        </div>
+
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=600&q=80"
+            alt="Rio cristalino">
+        </div>
+
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+            alt="Paisagem relaxante">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CSS -->
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">A importância do CSS</h2>
+      <p class="grid-description">Estilo, identidade e experiência.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Visual</h3>
+          <p>Transforma estrutura em design.</p>
+        </article>
+
+        <article>
+          <h3>Identidade</h3>
+          <p>Cria personalidade para o site.</p>
+        </article>
+
+        <article>
+          <h3>Carreira</h3>
+          <p>Valoriza o profissional no mercado.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>O começo de uma nova jornada</h2>
+        <p>
+          Este curso foi apenas o início.
+          Continuarei estudando para construir
+          uma carreira sólida no futuro.
+        </p>
+      </div>
+
+      <!-- ÚLTIMA IMAGEM (MANTIDA) -->
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer white-bg">
+    <p>Projeto feito com dedicação e aprendizado 💙</p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+
 </body>
 </html>
